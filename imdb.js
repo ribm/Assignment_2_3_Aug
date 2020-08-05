@@ -8,7 +8,7 @@ try{
     var response = await fetch('https://omdbapi.com/?apikey=2a59f2dd&t='+x)
     var result = await response.json()
     console.log(result)
-    alert(result)
+    alert("Movie Casting...."+result.Actors+"Movie Year..."+result.Year)
 
 
 
