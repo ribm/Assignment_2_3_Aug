@@ -5,7 +5,7 @@
      
      console.log(x)
 try{
-    var response = await fetch('http://omdbapi.com/?apikey=2a59f2dd&t='+x)
+    var response = await fetch('https://omdbapi.com/?apikey=2a59f2dd&t='+x)
     var result = await response.json()
     console.log(result)
     alert(result)
